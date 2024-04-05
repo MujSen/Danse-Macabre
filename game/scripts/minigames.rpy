@@ -65,7 +65,7 @@ label mageQ3:
         "Victor Frankenstein":
             Ar shappy "I knew it!"
             $point += 1
-            return
+            jump mageEnd
 label js_mage01:
     Ma "Behold, the dance of shadows, where reality blurs and dreams take flight."
     return
