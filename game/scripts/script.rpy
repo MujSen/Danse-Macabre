@@ -1,7 +1,4 @@
 ﻿label start:
-    jump mageStart
-
-label mageEnd:
     scene Corridor
     show Chand at pendulum with dissolve
     show Bella childhappy2 at right with moveinright
@@ -187,4 +184,5 @@ label circus:
     Ma "… and uncover secrets as ancient as the shadows that surround us." with dissolve
 
     jump mageStart
+label mageEnd:
     return
